@@ -14,5 +14,6 @@ val zxingLibs = Seq("com.google.zxing" % "core" % "3.3.1",
 lazy val qrIdent = (project in file(".")).
   settings(
     libraryDependencies ++= zxingLibs,
-    name := "qrIdent"
+    name := "qrIdent",
+    version := "0.2"
   )
